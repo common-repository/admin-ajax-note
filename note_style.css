@@ -1,0 +1,138 @@
+.note_mini {
+background-image: url(./images/note_mini.png);
+width: 16px;
+height: 16px;
+
+z-index: 3;
+}
+
+.note_admin_mini_menu {
+position: absolute;
+right: 30px;
+top: 75px;
+}
+
+.note_mini_menu  {
+display:none;
+background-color: #FBFABB;
+right: 20px;
+width: 200px;
+height: auto;
+position: absolute;
+-moz-border-radius: 4px;
+-khtml-border-radius: 5px;
+text-align: left;
+z-index:4;
+border: 1px solid #AAA;
+
+}
+
+
+a.note_mini_menu_new {
+display:block;
+    background: url(images/note_add.png) no-repeat 5px center;
+text-decoration: none;
+color: #000;
+margin: 5px;
+padding: 5px 5px 5px 25px;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+border: 1px solid #AAA;
+}
+
+a.note_mini_menu_new:hover {
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+border: 1px solid #AAA;
+background-color: #FFE21F;
+}
+
+a.note_mini_menu_note {
+display:block;
+text-decoration: none;
+color: #000;
+margin: 5px;
+padding: 5px;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+border: 1px solid #AAA;
+}
+
+a.note_mini_menu_note:hover {
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+border: 1px solid #AAA;
+background-color: #FFE21F;
+}
+
+ul.note_mini_menu_content {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+ul.note_mini_menu_content li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  line-height: 24px; /* height of icon */
+    background: no-repeat 0 50%;
+  }
+
+
+#note_info {
+margin: 5px;
+font-size: 1.3em;
+cursor: move;
+}
+
+#note_content {
+margin: 5px;
+}
+
+.admin_note_ajax_loader {
+display:none;
+background-image: url(images/load.gif);
+height: 18px;
+width: 18px;
+margin-left: 5px;
+}
+
+.admin_note_edit_button {
+background: url(images/edit.png) no-repeat;
+position:absolute;
+bottom: 0;
+left: 0;
+width: 16px;
+height: 16px;
+padding: 2px;
+}
+
+.admin_note_info_button {
+/*background-image: url(images/.png);
+background-repeat: no-repeat;*/
+color: #ccc;
+font-size: 10px;
+position:absolute;
+bottom: 2px;
+left: 2px;
+margin-left: 16px;
+}
+
+#new_admin_note {
+display: none;
+}
+
+/* Nicht das jemand noch was sieht wenn er Javascript deaktiviert hat zzzz */
+
+#edit_admin_note {
+display: none;
+}
+
+#delete_admin_note_sure {
+display: none;
+}
+
+.aan_wait {
+    background-image: url(./images/load.gif);
+    background-repeat: no-repeat;
+}
